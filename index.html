@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    const pi = 3.14;
+    var r = +prompt("Nhap ban kinh hinh tron");
+    var c = 2*r*pi;
+    var s = r**2*pi;
+    var d = c/pi;
+    if(r < 0 || isNaN(r)) {
+        alert("Nhap du lieu sai");
+    } else {
+        document.write("chu vi hcn la: " + c + " cm");
+        document.write("<br/>");
+        document.write("dien tich hinh chu nhat la: " + s + " cm");
+        document.write("<br/>");
+        document.write("duong kinh hcn la: " + d + " cm");
+    }
+</script>
